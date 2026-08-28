@@ -26,6 +26,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5500",
         "http://127.0.0.1:5500",
+        "https://fasalrakshak-frontend.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -37,6 +38,7 @@ app.add_middleware(
 app.include_router(evidence.router)
 app.include_router(assessment.router)
 app.include_router(auth.router)
+
 
 # Health check
 @app.get("/health")
