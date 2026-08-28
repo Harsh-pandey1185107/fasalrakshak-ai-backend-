@@ -1,0 +1,98 @@
+{
+  "Purple blotch": {
+    "crop": "Onion",
+    "category": "Fungal disease",
+    "summary": "Purple blotch is an important foliar disease of onion that can damage leaves and reduce crop performance.",
+    "symptoms": [
+      "Purple to brown lesions or blotches on onion leaves",
+      "Lesions may enlarge as disease progresses",
+      "Severe infection can lead to drying and weakening of foliage"
+    ],
+    "recommended_actions": [
+      "Inspect nearby onion plants for similar symptoms",
+      "Remove severely affected plant material where practical",
+      "Avoid conditions that keep foliage unnecessarily wet",
+      "Use locally recommended integrated disease-management practices",
+      "Consult an agricultural officer before applying crop-protection chemicals"
+    ],
+    "source_name": "ICAR - Directorate of Onion and Garlic Research",
+    "source_url": "https://www.icar.gov.in/sites/default/files/2022-07/QRT-DOGR-01.pdf",
+    "human_verification_required": true
+  },
+
+  "stemphylium Leaf Blight": {
+    "crop": "Onion",
+    "category": "Fungal foliar disease",
+    "summary": "Stemphylium leaf blight is a foliar disease of onion that affects leaf tissue and can contribute to foliage deterioration.",
+    "symptoms": [
+      "Leaf lesions and blighting",
+      "Affected leaf tissue may progressively dry",
+      "Severe disease can reduce healthy green leaf area"
+    ],
+    "recommended_actions": [
+      "Monitor the field for spread of foliar symptoms",
+      "Remove severely affected material where practical",
+      "Reduce prolonged leaf wetness where crop management allows",
+      "Follow locally recommended integrated disease-management practices",
+      "Seek agricultural officer guidance before chemical treatment"
+    ],
+    "source_name": "ICAR - Directorate of Onion and Garlic Research",
+    "source_url": "https://www.icar.gov.in/sites/default/files/2022-07/QRT-DOGR-01.pdf",
+    "human_verification_required": true
+  },
+
+  "Fusarium-D": {
+    "crop": "Onion",
+    "category": "Disease",
+    "summary": "The AI class indicates symptoms associated with the model's Fusarium disease category. Field confirmation is required before treatment decisions.",
+    "symptoms": [
+      "Possible yellowing or decline of affected plants",
+      "Possible deterioration around roots or basal plant tissue",
+      "Symptoms should be confirmed by an agricultural officer"
+    ],
+    "recommended_actions": [
+      "Inspect the base and roots of affected plants",
+      "Avoid excessive soil moisture and poor drainage",
+      "Separate severely affected plants where appropriate",
+      "Request field verification before applying disease-control chemicals"
+    ],
+    "source_name": "FasalRakshak provisional knowledge entry - requires onion-specific authoritative source verification",
+    "source_url": null,
+    "human_verification_required": true
+  },
+
+  "Caterpillar-P": {
+    "crop": "Onion",
+    "category": "Pest",
+    "summary": "The AI class indicates possible caterpillar-related feeding damage. The pest species must be confirmed before treatment.",
+    "symptoms": [
+      "Possible chewing or feeding damage on foliage",
+      "Damaged leaf tissue may be visible",
+      "Larvae or other pest evidence may be present near affected plants"
+    ],
+    "recommended_actions": [
+      "Inspect plants for larvae and feeding damage",
+      "Check nearby plants to estimate how widely the problem has spread",
+      "Use integrated pest-management practices appropriate to the identified pest",
+      "Consult an agricultural officer before pesticide application"
+    ],
+    "source_name": "FasalRakshak provisional knowledge entry - requires pest-specific authoritative source verification",
+    "source_url": null,
+    "human_verification_required": true
+  },
+
+  "Healthy leaves": {
+    "crop": "Onion",
+    "category": "Healthy",
+    "summary": "The AI model found the uploaded onion leaf most consistent with its healthy-leaf class.",
+    "symptoms": [],
+    "recommended_actions": [
+      "Continue routine crop monitoring",
+      "Maintain appropriate irrigation and crop-management practices",
+      "Upload another image or request field inspection if new symptoms appear"
+    ],
+    "source_name": "FasalRakshak AI classification guidance",
+    "source_url": null,
+    "human_verification_required": true
+  }
+}

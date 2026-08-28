@@ -1,0 +1,94 @@
+# ==========================================
+# FasalRakshak AI - Git Ignore
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Databases - local development data
+*.db
+*.sqlite
+*.sqlite3
+
+# Farmer uploaded evidence
+uploads/
+*/uploads/
+
+# Python testing / cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Backup files
+*.backup
+*.backup_*
+*.backup-*
+*.backup_before_*
+*.backup-before-*
+*.bak
+
+# Local test images
+test_images/
+*/test_images/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# TensorFlow temporary/checkpoint files
+checkpoint
+*.ckpt
+*.h5.tmp
+
+# ==========================================
+# IMPORTANT
+# ==========================================
+# Keep the trained production model:
+# models_ai/fasalrakshak_onion_improved.keras
+#
+# Keep the official RAG knowledge:
+# app/knowledge/onion_diseases.json
+#
+# Keep requirements.txt
+# ==========================================
